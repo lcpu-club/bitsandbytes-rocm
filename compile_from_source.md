@@ -21,7 +21,7 @@ If you have problems compiling the library with these instructions from source, 
 
 ## ROCm
 Basic steps.
-1. `make hip`
+1. `ROCM_HOME=/opt/rocm make hip`
 2. `python setup.py install`
 
 To run these steps you will need to have the hipcc compiler installed that comes with a ROCm installation. hipcc need to be in your path.
